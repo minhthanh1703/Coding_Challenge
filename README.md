@@ -1,7 +1,7 @@
 # Coding_Challenge
-A simple console version of a drawing program
-I used Java version 8 to compile the application
-Running file main.java to run the application
+A simple console version of a drawing program.
+I used Java version 8 to compile the application.
+Running file main.java to run the application.
 
 
 |Command             |Description |

@@ -3,7 +3,7 @@ A simple console version of a drawing program
 I used Java version 8 to compile the application
 Running file main.java to run the application
 
-Command 		Description
+Command 		    Description
 C w h           Should create a new canvas surface of width w and height h.
 
 L x1 y1 x2 y2   Should create a new line from (x1,y1) to (x2,y2). Currently only

@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a8f3e32-195f-4e40-9458-bad21768453a" name="Default Changelist" comment="" />
+    <list default="true" id="9a8f3e32-195f-4e40-9458-bad21768453a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/command/CreateCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/command/DrawLineCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/command/DrawRectangleCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/command/FillColorCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/command/RouteCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/model/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/model/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/model/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/service/CanvasService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/service/LineService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/service/PointService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/service/RectangleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/service/impl/CanvasServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/service/impl/LineServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/service/impl/PointServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/service/impl/RectangleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/util/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/util/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Coding_Challenge/thanhpm/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Coding_Challenge/thanhpm/example/util/Canvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thanhpm/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thanhpm/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thanhpm/example/util/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thanhpm/example/model/Canvas.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +38,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1e8BtZsSiz18GZ0AK5B5hygWsy5" />
   <component name="ProjectViewState">
@@ -21,8 +53,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunManager">
@@ -53,6 +88,9 @@
       <option name="presentableId" value="Default" />
       <updated>1593693554931</updated>
       <workItem from="1593693558331" duration="15916000" />
+      <workItem from="1593740476304" duration="841000" />
+      <workItem from="1593748057856" duration="16319000" />
+      <workItem from="1593779439678" duration="13985000" />
     </task>
     <servers />
   </component>
@@ -60,41 +98,53 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="240" key="#com.intellij.ide.util.MemberChooser" timestamp="1593695878248">
+    <state x="765" y="240" key="#com.intellij.ide.util.MemberChooser" timestamp="1593790905804">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="765" y="240" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593695878248" />
-    <state width="1877" height="464" key="GridCell.Tab.0.bottom" timestamp="1593709237976">
+    <state x="765" y="240" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593790905804" />
+    <state width="1877" height="551" key="GridCell.Tab.0.bottom" timestamp="1593792813111">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="464" key="GridCell.Tab.0.bottom/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593709237976" />
-    <state width="1877" height="464" key="GridCell.Tab.0.center" timestamp="1593709237976">
+    <state width="1877" height="551" key="GridCell.Tab.0.bottom/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593792813111" />
+    <state width="1877" height="335" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1593740582445" />
+    <state width="1877" height="551" key="GridCell.Tab.0.center" timestamp="1593792813110">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="464" key="GridCell.Tab.0.center/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593709237976" />
-    <state width="1877" height="464" key="GridCell.Tab.0.left" timestamp="1593709237975">
+    <state width="1877" height="551" key="GridCell.Tab.0.center/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593792813110" />
+    <state width="1877" height="335" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1593740582444" />
+    <state width="1877" height="551" key="GridCell.Tab.0.left" timestamp="1593792813110">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="464" key="GridCell.Tab.0.left/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593709237975" />
-    <state width="1877" height="464" key="GridCell.Tab.0.right" timestamp="1593709237976">
+    <state width="1877" height="551" key="GridCell.Tab.0.left/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593792813110" />
+    <state width="1877" height="335" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1593740582444" />
+    <state width="1877" height="551" key="GridCell.Tab.0.right" timestamp="1593792813111">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="464" key="GridCell.Tab.0.right/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593709237976" />
-    <state width="1877" height="320" key="GridCell.Tab.1.bottom" timestamp="1593708586130">
+    <state width="1877" height="551" key="GridCell.Tab.0.right/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593792813111" />
+    <state width="1877" height="335" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1593740582444" />
+    <state width="1877" height="551" key="GridCell.Tab.1.bottom" timestamp="1593792813111">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="320" key="GridCell.Tab.1.bottom/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593708586130" />
-    <state width="1877" height="320" key="GridCell.Tab.1.center" timestamp="1593708586130">
+    <state width="1877" height="551" key="GridCell.Tab.1.bottom/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593792813111" />
+    <state width="1877" height="551" key="GridCell.Tab.1.center" timestamp="1593792813111">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="320" key="GridCell.Tab.1.center/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593708586130" />
-    <state width="1877" height="320" key="GridCell.Tab.1.left" timestamp="1593708586129">
+    <state width="1877" height="551" key="GridCell.Tab.1.center/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593792813111" />
+    <state width="1877" height="551" key="GridCell.Tab.1.left" timestamp="1593792813111">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="320" key="GridCell.Tab.1.left/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593708586129" />
-    <state width="1877" height="320" key="GridCell.Tab.1.right" timestamp="1593708586130">
+    <state width="1877" height="551" key="GridCell.Tab.1.left/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593792813111" />
+    <state width="1877" height="551" key="GridCell.Tab.1.right" timestamp="1593792813111">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="320" key="GridCell.Tab.1.right/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593708586130" />
+    <state width="1877" height="551" key="GridCell.Tab.1.right/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593792813111" />
+    <state x="656" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1593779455612">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="656" y="348" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593779455612" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1593780844861">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593780844861" />
   </component>
 </project>

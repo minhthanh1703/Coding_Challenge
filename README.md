@@ -46,3 +46,15 @@ B x y c         Should fill the entire area connected to (x,y) with "colour" c. 
                 programs.
                 
 Q               Should quit the program.
+```
+
+## Build environment
+
+- JDK: 1.8.0_241
+- JRE: 1.8.0_241
+- IDE: IntelliJ
+- JUnit(4.12) is used for testing
+
+
+## Note:
+- Run main.class to start application

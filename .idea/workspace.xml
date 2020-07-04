@@ -1,34 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a8f3e32-195f-4e40-9458-bad21768453a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/command/CreateCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/command/DrawLineCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/command/DrawRectangleCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/command/FillColorCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/command/RouteCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/model/Line.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/model/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/model/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/service/CanvasService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/service/LineService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/service/PointService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/service/RectangleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/service/impl/CanvasServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/service/impl/LineServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/service/impl/PointServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/service/impl/RectangleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/util/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thanhpm/example/util/Utils.java" afterDir="false" />
+    <list default="true" id="9a8f3e32-195f-4e40-9458-bad21768453a" name="Default Changelist" comment="Merge branch 'master' of https://github.com/minhthanh1703/Coding_Challenge&#10;&#10;# Conflicts:&#10;#&#9;README.md">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thanhpm/test/CreateCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thanhpm/test/DrawLineCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thanhpm/test/DrawRectangleCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thanhpm/test/FillColorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coding_Challenge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Coding_Challenge.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Coding_Challenge/thanhpm/example/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Coding_Challenge/thanhpm/example/util/Canvas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thanhpm/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thanhpm/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thanhpm/example/util/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thanhpm/example/model/Canvas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Coding_Challenge/thanhpm/example/command/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Coding_Challenge/thanhpm/example/command/CreateCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Coding_Challenge/thanhpm/example/command/DrawLineCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Coding_Challenge/thanhpm/example/command/DrawRectangleCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Coding_Challenge/thanhpm/example/command/FillColorCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Coding_Challenge/thanhpm/example/command/RouteCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Coding_Challenge/thanhpm/example/model/Canvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Coding_Challenge/thanhpm/example/model/Line.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Coding_Challenge/thanhpm/example/model/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Coding_Challenge/thanhpm/example/model/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Coding_Challenge/thanhpm/example/service/CanvasService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Coding_Challenge/thanhpm/example/service/LineService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Coding_Challenge/thanhpm/example/service/PointService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Coding_Challenge/thanhpm/example/service/RectangleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Coding_Challenge/thanhpm/example/service/impl/CanvasServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Coding_Challenge/thanhpm/example/service/impl/LineServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Coding_Challenge/thanhpm/example/service/impl/PointServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Coding_Challenge/thanhpm/example/service/impl/RectangleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Coding_Challenge/thanhpm/example/util/Constant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Coding_Challenge/thanhpm/example/util/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thanhpm/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thanhpm/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thanhpm/example/command/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thanhpm/main/command/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thanhpm/example/command/CreateCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thanhpm/main/command/CreateCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thanhpm/example/command/DrawLineCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thanhpm/main/command/DrawLineCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thanhpm/example/command/DrawRectangleCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thanhpm/main/command/DrawRectangleCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thanhpm/example/command/FillColorCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thanhpm/main/command/FillColorCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thanhpm/example/command/RouteCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thanhpm/main/command/RouteCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thanhpm/example/model/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thanhpm/main/model/Canvas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thanhpm/example/model/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thanhpm/main/model/Line.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thanhpm/example/model/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thanhpm/main/model/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thanhpm/example/model/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thanhpm/main/model/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thanhpm/example/service/CanvasService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thanhpm/main/service/CanvasService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thanhpm/example/service/LineService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thanhpm/main/service/LineService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thanhpm/example/service/PointService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thanhpm/main/service/PointService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thanhpm/example/service/RectangleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thanhpm/main/service/RectangleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thanhpm/example/service/impl/CanvasServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thanhpm/main/service/impl/CanvasServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thanhpm/example/service/impl/LineServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thanhpm/main/service/impl/LineServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thanhpm/example/service/impl/PointServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thanhpm/main/service/impl/PointServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thanhpm/example/service/impl/RectangleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thanhpm/main/service/impl/RectangleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thanhpm/example/util/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thanhpm/main/util/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thanhpm/example/util/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/thanhpm/main/util/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +71,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1e8BtZsSiz18GZ0AK5B5hygWsy5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -57,16 +84,82 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/hamcrest-core-1.3.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="thanhpm.example.Main" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thanhpm.main.Main" />
       <module name="Coding_Challenge" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thanhpm.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateCommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Coding_Challenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thanhpm.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="thanhpm.test" />
+      <option name="MAIN_CLASS_NAME" value="thanhpm.test.CreateCommandTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DrawLineCommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Coding_Challenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thanhpm.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="thanhpm.test" />
+      <option name="MAIN_CLASS_NAME" value="thanhpm.test.DrawLineCommandTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DrawRectangleCommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Coding_Challenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thanhpm.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="thanhpm.test" />
+      <option name="MAIN_CLASS_NAME" value="thanhpm.test.DrawRectangleCommandTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FillColorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Coding_Challenge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thanhpm.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="thanhpm.test" />
+      <option name="MAIN_CLASS_NAME" value="thanhpm.test.FillColorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -74,6 +167,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.FillColorTest" />
+        <item itemvalue="JUnit.DrawRectangleCommandTest" />
+        <item itemvalue="JUnit.DrawLineCommandTest" />
+        <item itemvalue="JUnit.CreateCommandTest" />
       </list>
     </recent_temporary>
   </component>
@@ -90,7 +187,8 @@
       <workItem from="1593693558331" duration="15916000" />
       <workItem from="1593740476304" duration="841000" />
       <workItem from="1593748057856" duration="16319000" />
-      <workItem from="1593779439678" duration="13985000" />
+      <workItem from="1593779439678" duration="17056000" />
+      <workItem from="1593826917765" duration="7936000" />
     </task>
     <servers />
   </component>
@@ -98,50 +196,59 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="240" key="#com.intellij.ide.util.MemberChooser" timestamp="1593790905804">
+    <state x="765" y="240" key="#com.intellij.ide.util.MemberChooser" timestamp="1593834199045">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="765" y="240" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593790905804" />
+    <state x="-1155" y="240" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1050/0.0.1920.1050@-1920.0.1920.1050" timestamp="1593830838306" />
+    <state x="765" y="240" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593834199045" />
     <state x="514" y="79" width="1086" height="970" key="CommitChangelistDialog2" timestamp="1593793633494">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="514" y="79" width="1086" height="970" key="CommitChangelistDialog2/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593793633494" />
-    <state width="1877" height="551" key="GridCell.Tab.0.bottom" timestamp="1593792813111">
+    <state x="-1254" y="266" key="FileChooserDialogImpl" timestamp="1593830222270">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1254" y="266" key="FileChooserDialogImpl/-1920.0.1920.1050/0.0.1920.1050@-1920.0.1920.1050" timestamp="1593830222270" />
+    <state width="1877" height="461" key="GridCell.Tab.0.bottom" timestamp="1593837047551">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="551" key="GridCell.Tab.0.bottom/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593792813111" />
+    <state width="1877" height="419" key="GridCell.Tab.0.bottom/-1920.0.1920.1050/0.0.1920.1050@-1920.0.1920.1050" timestamp="1593831608655" />
+    <state width="1877" height="461" key="GridCell.Tab.0.bottom/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593837047551" />
     <state width="1877" height="335" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1593740582445" />
-    <state width="1877" height="551" key="GridCell.Tab.0.center" timestamp="1593792813110">
+    <state width="1877" height="461" key="GridCell.Tab.0.center" timestamp="1593837047551">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="551" key="GridCell.Tab.0.center/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593792813110" />
+    <state width="1877" height="419" key="GridCell.Tab.0.center/-1920.0.1920.1050/0.0.1920.1050@-1920.0.1920.1050" timestamp="1593831608654" />
+    <state width="1877" height="461" key="GridCell.Tab.0.center/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593837047551" />
     <state width="1877" height="335" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1593740582444" />
-    <state width="1877" height="551" key="GridCell.Tab.0.left" timestamp="1593792813110">
+    <state width="1877" height="461" key="GridCell.Tab.0.left" timestamp="1593837047551">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="551" key="GridCell.Tab.0.left/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593792813110" />
+    <state width="1877" height="419" key="GridCell.Tab.0.left/-1920.0.1920.1050/0.0.1920.1050@-1920.0.1920.1050" timestamp="1593831608654" />
+    <state width="1877" height="461" key="GridCell.Tab.0.left/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593837047551" />
     <state width="1877" height="335" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1593740582444" />
-    <state width="1877" height="551" key="GridCell.Tab.0.right" timestamp="1593792813111">
+    <state width="1877" height="461" key="GridCell.Tab.0.right" timestamp="1593837047551">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="551" key="GridCell.Tab.0.right/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593792813111" />
+    <state width="1877" height="419" key="GridCell.Tab.0.right/-1920.0.1920.1050/0.0.1920.1050@-1920.0.1920.1050" timestamp="1593831608654" />
+    <state width="1877" height="461" key="GridCell.Tab.0.right/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593837047551" />
     <state width="1877" height="335" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1593740582444" />
-    <state width="1877" height="551" key="GridCell.Tab.1.bottom" timestamp="1593792813111">
+    <state width="1877" height="461" key="GridCell.Tab.1.bottom" timestamp="1593837047380">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="551" key="GridCell.Tab.1.bottom/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593792813111" />
-    <state width="1877" height="551" key="GridCell.Tab.1.center" timestamp="1593792813111">
+    <state width="1877" height="461" key="GridCell.Tab.1.bottom/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593837047380" />
+    <state width="1877" height="461" key="GridCell.Tab.1.center" timestamp="1593837047380">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="551" key="GridCell.Tab.1.center/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593792813111" />
-    <state width="1877" height="551" key="GridCell.Tab.1.left" timestamp="1593792813111">
+    <state width="1877" height="461" key="GridCell.Tab.1.center/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593837047380" />
+    <state width="1877" height="461" key="GridCell.Tab.1.left" timestamp="1593837047380">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="551" key="GridCell.Tab.1.left/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593792813111" />
-    <state width="1877" height="551" key="GridCell.Tab.1.right" timestamp="1593792813111">
+    <state width="1877" height="461" key="GridCell.Tab.1.left/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593837047380" />
+    <state width="1877" height="461" key="GridCell.Tab.1.right" timestamp="1593837047380">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="551" key="GridCell.Tab.1.right/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593792813111" />
+    <state width="1877" height="461" key="GridCell.Tab.1.right/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593837047380" />
     <state x="184" y="87" key="MergeDialog" timestamp="1593793674769">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -150,10 +257,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="672" y="240" key="MultipleFileMergeDialog/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593793674784" />
-    <state x="656" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1593779455612">
+    <state x="-1480" y="99" key="SettingsEditor" timestamp="1593830247882">
+      <screen x="-1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="-1480" y="99" key="SettingsEditor/-1920.0.1920.1050/0.0.1920.1050@-1920.0.1920.1050" timestamp="1593830247882" />
+    <state width="425" height="446" key="SwitcherDM" timestamp="1593836210899">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="656" y="348" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593779455612" />
+    <state width="425" height="446" key="SwitcherDM/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593836210899" />
+    <state x="656" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1593826921286">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="656" y="348" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1593826921286" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1593780844861">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
